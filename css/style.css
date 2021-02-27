@@ -1,0 +1,290 @@
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+
+.top-menu div {
+    padding: 10px;
+    color: #305534;
+    border: 1px solid #C9D6CB;
+    border: 1px solid #C9D6CB;
+}
+
+.top-border-r {
+    text-align: center;
+}
+
+.top-icon ul li a {
+    padding: 5px 15px;
+    color: #305534;
+    opacity: 60%;
+}
+
+.top-icon ul li a:hover {
+    opacity: 100%;
+}
+
+
+
+.menubar {
+    padding: 10px;
+    min-height: 10vh;
+}
+
+.menubar ul li a {
+    color: #301A22;
+    font-weight: 500;
+    padding: 15px 12px;
+    display: block;
+    font-size: 18px;
+}
+
+.menu-btn {
+    margin-top: 5px;
+    padding: 8px 22px !important;
+    text-transform: capitalize !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    background: #00880F;
+    border-radius: 30px;
+}
+
+
+.mainhd {
+    /* background-image: url('img/h1_hero1.jpg'); */
+    background-size: cover;
+    height: 85vh;
+    /* padding: 300px;
+    margin: 0; */
+    text-align: center;
+}
+
+.mainhd-div {
+    padding-top: 35vh;
+    margin-bottom: auto;
+}
+
+.mainhd-div h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.mainhd-div p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.mainhd a {
+    color: #000000;
+    padding: 14px 34px;
+    font-size: 18px;
+    border-radius: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+
+.six-icon:hover {
+    background-color: #0088101f;
+    color: white;
+}
+
+.six-icon h4 a {
+    color: #00880f;
+}
+
+.six-icon h4 a:hover {
+    color: #00880f;
+    text-decoration: underline;
+}
+
+.six-icon-p {
+    color: #305534;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.six-icon-p a {
+    color: #12C426;
+    text-decoration: underline;
+}
+
+.g-part {
+    background: #305534;
+    color: white;
+}
+
+.g-part-c {
+    padding-top: 7rem;
+    padding-bottom: 0px;
+}
+
+.g-part-c h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.g-part-c p {
+    padding: 10px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.g-part-c h4 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 16px;
+}
+
+.g-part-c a {
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #00880F;
+    padding: 15px 20px;
+    border-radius: 35px;
+}
+
+.g-part-c img {
+    vertical-align: middle;
+    padding-top: 70px;
+    margin-bottom: 0px;
+}
+
+
+.block3 div {
+    margin-top: -13px;
+    padding-top: 30px;
+    color: #305534;
+    border-left: 1px solid #C9D6CB;
+    border-right: 1px solid #C9D6CB;
+    border-bottom: 1px solid #C9D6CB;
+}
+
+.block3 h5 {
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+    font-weight: 600;
+    color: #305534:
+}
+
+.block3 p {
+    margin-bottom: 24px;
+    font-size: 20px;
+    color: #66816A;
+}
+
+.project {
+    padding: 70px 0px;
+    text-align: center;
+}
+
+.project h1{
+    font-size: 40px;
+    color:#305534;;
+    padding: 25px 0px;
+}
+
+.box {
+    width: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 255px;
+    padding: 10px;
+    margin: 10px;
+}
+.s-img{
+    margin-left: -45px;
+}
+
+
+.last-part h2{
+    color: #305534;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+
+.clr{
+    color: #305534;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 36px;
+}
+
+.last-part p{
+    font-size: 20px;
+    color: #66816A;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.last-part input, select{
+    font-size: 15px;
+    color: #2c442e;
+    width: 100%;
+    padding: 15px 20px;
+    margin: 10px 0px;
+    border: 1.5px solid #66816A;
+    border-radius: 25px;
+}
+
+textarea{
+    font-size: 15px;
+    color: #2c442e;
+    width: 100%;
+    padding: 35px 20px;
+    margin: 15px 0px;
+    border: 1.5px solid #66816A;
+    border-radius: 25px;
+}
+
+.last-part-down{
+    margin: 10px -24px
+}
+
+.last-part-down div{
+    padding: 20px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+
+
+/* Start of Footer Style */
+
+.cfooter {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 0vh;
+}
+
+.cfooter p, a{
+    color: #305534;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.cfooter img{
+    margin-top: -95px;
+    width:100%;
+}
+
+/* End of Footer Style */
