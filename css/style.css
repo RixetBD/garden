@@ -13,7 +13,7 @@ li {
 
 
 .top-menu div {
-    padding: 10px;
+    padding: 5px;
     color: #305534;
     border: 1px solid #C9D6CB;
     border: 1px solid #C9D6CB;
@@ -24,7 +24,7 @@ li {
 }
 
 .top-icon ul li a {
-    padding: 5px 15px;
+    padding: 5px 5px;
     color: #305534;
     opacity: 60%;
 }
@@ -34,19 +34,6 @@ li {
 }
 
 
-
-.menubar {
-    padding: 10px;
-    min-height: 10vh;
-}
-
-.menubar ul li a {
-    color: #301A22;
-    font-weight: 500;
-    padding: 15px 12px;
-    display: block;
-    font-size: 18px;
-}
 
 .menu-btn {
     margin-top: 5px;
@@ -62,24 +49,22 @@ li {
 .mainhd {
     /* background-image: url('img/h1_hero1.jpg'); */
     background-size: cover;
-    height: 85vh;
-    /* padding: 300px;
-    margin: 0; */
+    height: 100vh;
     text-align: center;
 }
 
 .mainhd-div {
-    padding-top: 35vh;
+    padding-top: 25vh;
     margin-bottom: auto;
 }
 
 .mainhd-div h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
 }
 
 .mainhd-div p {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
 }
@@ -95,7 +80,7 @@ li {
 
 
 .six-icon:hover {
-    background-color: #0088101f;
+    background-color: #008810;
     color: white;
 }
 
@@ -200,12 +185,12 @@ li {
 }
 
 .box {
-    width: 30%;
+    width: 95%;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 255px;
     padding: 10px;
-    margin: 10px;
+    
 }
 .s-img{
     margin-left: -45px;
