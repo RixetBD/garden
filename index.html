@@ -9,23 +9,23 @@
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/rixet-style.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 
 </head>
 
 <body>
 
     <!-- Start Of Top Menu -->
-    <div class="container-fluid">
+    <div class="container-fluid d-none d-md-block d-lg-none">
         <div class="row top-menu">
-            <div class="col-2 top-border-r"><a href="tel:+8801773800869" style="color: #305534;">Call Us: +10 (87) 263
+            <div class="col-3 top-border-r"><a href="tel:+8801773800869" style="color: #305534;">Call Us: +10 (87) 263
                     3567</a></div>
-            <div class="col-2 top-border-r"><a href="mailto:info@gardening.com"
+            <div class="col-3 top-border-r"><a href="mailto:info@gardening.com"
                     style="color: #305534;">info@gardening.com</a></div>
             <div class="col-3">Mon - Fri: 9:00 - 19:00</div>
-            <div class="col-5 top-icon">
-                <ul style="float: right;padding-right: 7rem;">
+            <div class="col-3 top-icon">
+                <ul style="float: right;">
                     <li>
                         <a href="https://www.facebook.com/rixet.rabiul/"><i class="fa fa-facebook-square"></i></a>
                     </li>
@@ -49,42 +49,36 @@
 
 
     <!-- Start Of Main Menu -->
-    <nav class="container menubar">
-        <div class="row">
-            <div class="col-3">
-                <img src="img/logo.png" alt="Gardening">
-            </div>
-            <div class="col-6">
-                <ul>
-                    <li>
-                        <a href="#index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="#index.html">Services</a>
-                    </li>
-                    <li>
-                        <a href="#index.html">About</a>
-                    </li>
-                    <li>
-                        <a href="#index.html">Project</a>
-                    </li>
-                    <li>
-                        <a href="#index.html">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#index.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-3">
-                <ul>
-                    <li><a href="#" style="color: #305534;"><i class="fa fa-search"></i></a></li>
-                    <li><a href="#" class="btn btn-success menu-btn text-white">Get Free Quote</a></li>
-                </ul>
-            </div>
-        </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Gardening"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#">Service</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#">About</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#">Project</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#">Contact</a>
+    </li>
+    </ul>
+    <ul>
+    <li><a href="#" style="color: #305534;"><i class="fa fa-search"></i></a></li>
+    <li><a href="#" class="btn btn-success menu-btn text-white">Get Free Quote</a></li>
+    </ul>
+    </div>
     </nav>
-
     <!-- End Of Main Menu -->
 
     <!-- Start Of Main Header -->
@@ -102,29 +96,29 @@
 
     <!-- End Of Main Header -->
 
-    <div class="container text-center p-5">
+    <div class="container text-center pt-5 pb-5">
         <div class="row">
-            <div class="col-2 p-4 six-icon">
-                <img src="img/icon/picon-1.png" alt="">
+            <div class="col-sm-4 col-md-2 col-lg-2 col-xl-2 six-icon">
+                <img class="img-fluid" src="img/icon/picon-1.png" alt="">
                 <h4><a href="#">Landscaping</a></h4>
             </div>
-            <div class="col-2 p-4 six-icon">
-                <img src="img/icon/picon-6.png" alt="">
+            <div class="col-sm-4 col-md-2 col-lg-2 col-xl-2 six-icon">
+                <img class="img-fluid" src="img/icon/picon-6.png" alt="">
                 <h4><a href="#">Planting</a></h4>
             </div>
-            <div class="col-2 p-4 six-icon">
-                <img src="img/icon/picon-3.png" alt="">
+            <div class="col-sm-4 col-md-2 col-lg-2 col-xl-2 six-icon">
+                <img class="img-fluid" src="img/icon/picon-3.png" alt="">
                 <h4><a href="#">Watering</a></h4>
             </div>
-            <div class="col-2 p-4 six-icon">
-                <img src="img/icon/picon-4.png" alt="">
+            <div class="col-sm-4 col-md-2 col-lg-2 col-xl-2 six-icon">
+                <img class="img-fluid" src="img/icon/picon-4.png" alt="">
                 <h4><a href="#">Fence</a></h4>
             </div>
-            <div class="col-2 p-4 six-icon">
-                <img src="img/icon/picon-5.png" alt="">
+            <div class="col-sm-4 col-md-2 col-lg-2 col-xl-2 six-icon">
+                <img class="img-fluid" src="img/icon/picon-5.png" alt="">
                 <h4><a href="#">Removing</a></h4>
             </div>
-            <div class="col-2 p-4 six-icon">
+            <div class="col-sm-4 col-md-2 col-lg-2 col-xl-2 six-icon">
                 <img src="img/icon/picon-6.png" alt="">
                 <h4><a href="#">Moving</a></h4>
             </div>
@@ -137,7 +131,7 @@
     <div class="container-fluid g-part">
         <div class="container g-part-c">
             <div class="row">
-                <div class="col-6">
+                <div class="col-sm-12 col-md-6 pt-3">
                     <h1>We have been designing gardens since 1990</h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin ante nisl, non
@@ -146,7 +140,7 @@
                     </p>
                     <img class="img-fluid" src="img/about1.jpg" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-sm-12 col-md-6 pt-3">
                     <h4>Our Mission</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin ante nisl, non
                         feugiat null fermentum lobortis. Aenean placerat ipsum ut velit elementum, in sodales tellus
@@ -168,7 +162,7 @@
 
     <div class="container-fluid block3">
         <div class="row">
-            <div class="col-4 p-4">
+            <div class="col-sm-12 col-md-4 p-4">
                 <img src="img/icon/icon.svg" alt="">
 
                 <h5>We prefer quality first</h5>
@@ -176,7 +170,7 @@
                     null fermentum lobortis.</p>
             </div>
 
-            <div class="col-4 p-4">
+            <div class="col-sm-12 col-md-4 p-4">
                 <img src="img/icon/icon.svg" alt="">
 
                 <h5>We prefer quality first</h5>
@@ -184,7 +178,7 @@
                     null fermentum lobortis.</p>
             </div>
 
-            <div class="col-4 p-4">
+            <div class="col-sm-12 col-md-4 p-4">
                 <img src="img/icon/icon.svg" alt="">
 
                 <h5>We prefer quality first</h5>
@@ -198,27 +192,29 @@
     <div class="container project">
         <h1>Feature Projects</h1>
         <div class="row">
-            <div class="col-4 box" style="background-image: url('img/project1.jpg');">
-
+            <div class="col-sm-12 col-md-4 box">
+				<img src="img/project1.jpg" alt="Picture One" class="img-fluid">
             </div>
-            <div class="col-4 box" style="background-image: url('img/project2.jpg');">
-
+            
+            <div class="col-sm-12 col-md-4 box">
+            <img src="img/project2.jpg" alt="Picture One" class="img-fluid">
             </div>
-            <div class="col-4 box" style="background-image: url('img/project3.jpg');">
-
+            
+            <div class="col-sm-12 col-md-4 box">
+            <img src="img/project3.jpg" alt="Picture One" class="img-fluid">
             </div>
         </div>
     </div>
 
     <div class="container-fluid p-5 last-part">
         <div class="row">
-            <div class="col-4 s-img">
-                <img class="img-fluid" src="img/visit_bg1.jpg" alt="" style="min-height: 515px;">
+            <div class="col-sm-12 col-md-4 s-img">
+                <img class="img-fluid" src="img/visit_bg1.jpg" alt="">
             </div>
-            <div class="col-8">
+            <div class="col-sm-12 col-md-8">
                 <div class="row">
 
-                    <div class="col-6">
+                    <div class="col-sm-12 col-md-6">
                         <h2>Our Commitment</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sollicitudin ante nisl, non
                             feugiat
@@ -227,16 +223,16 @@
                             Phasellus vestibulum
                             felis.</p>
                         <div class="row">
-                            <div class="col-3">
-                                <img src="img/testimonial.png" alt="">
+                            <div class="col-sm-12 col-md-9">
+                                <img class="img-fluid" src="img/testimonial.png" alt="">
                             </div>
-                            <div class="col-9 clr">
+                            <div class="col-sm-12 col-md-9 clr">
                                 <h4>Reuben Sandwich</h4>
                                 <p>CEO of Gardening</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-sm-12 col-md-6">
                         <h2>Get Free Quote</h2>
                         <form method="POST">
                             <input type="text" name="name" placeholder="Your name">
@@ -281,11 +277,14 @@
                         class="fa fa-heart"></i> Rabiul Islam
             </p>
         </div>
-        <img class="img-fluid" src="img/footer-bg2.png" alt="">
+        <br>
+        <div class="container-fluid">
+        	<img class="img-fluid" src="img/footer-bg2.png" alt="">
+        </div>
     </footer>
     <!-- End Of Main Footer -->
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
